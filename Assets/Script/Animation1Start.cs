@@ -9,10 +9,10 @@ public class Animation1Start : MonoBehaviour {
         bool touched = OculusTrigger.touched;
         if (touched)
         {
-            Debug.Log("touched!!!!!!");
+            //Debug.Log("touched!!!!!!");
             // animation begins from here
-            Animator anim = door.GetComponent<Animator>();
-            anim.Play("front-door-pivot");
+            //Animator anim = door.GetComponent<Animator>();
+            //anim.Play("front-door-pivot");
         }
 	}
 }
