@@ -3,22 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class customTouch : MonoBehaviour {
-    public static bool touchKeyBD = false;
+    public static bool touchKeyBD;
 	// Use this for initialization
 	void Start () {
-		
+        touchKeyBD = false;
 	}
 	
 	// Update is called once per frame
 	void Update () {
+        Debug.Log(touchKeyBD);
     }
 
-    void OnTriggerEnter(Collider other)
+    void OnCollisionEnter(Collision other)
     {
-        if(other.name == "Keyboard"){
+        if(other.gameObject.name.Equals("Keyboard")){
             touchKeyBD = true;
 
         }
-        Debug.Log(other.name);
+        Debug.Log(other.gameObject.name);
     }
 }
