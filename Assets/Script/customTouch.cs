@@ -11,13 +11,14 @@ public class customTouch : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+    }
 
     void OnTriggerEnter(Collider other)
     {
         if(other.name == "Keyboard"){
             touchKeyBD = true;
+
         }
+        Debug.Log(other.name);
     }
 }

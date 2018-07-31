@@ -10,6 +10,7 @@ public class Animation1Start : MonoBehaviour {
     // Update is called once per frame
     void Update () {
         bool touched = OculusTrigger.touched;
+
         if (touched && initial)
         {
             initial = false;

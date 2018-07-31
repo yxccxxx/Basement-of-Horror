@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BalloonAppear : MonoBehaviour {
-    public GameObject box;
+   /* public GameObject box;
     private bool initial;
 
 	// Use this for initialization
@@ -23,5 +23,5 @@ public class BalloonAppear : MonoBehaviour {
             gameObject.SetActive(true);
             box.SetActive(true);
         }
-    }
+    }*/
 }
