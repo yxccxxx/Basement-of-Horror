@@ -4638,7 +4638,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Player_4
     m_Version: 1
-  - m_Start: 188
+  - m_Start: 183.18333333333334
     m_ClipIn: 0
     m_Asset: {fileID: 114415524234880656}
     m_Duration: 34.68000000000001
@@ -5511,7 +5511,7 @@ MonoBehaviour:
   - m_Start: 95.06666666666662
     m_ClipIn: 0
     m_Asset: {fileID: 114679094354712122}
-    m_Duration: 29.06666666666672
+    m_Duration: 16.666666666666643
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114764820892575130}
     m_EaseInDuration: 0
@@ -7583,7 +7583,7 @@ MonoBehaviour:
   - m_Start: 94.89999999999993
     m_ClipIn: 0
     m_Asset: {fileID: 114511619276786940}
-    m_Duration: 29.233333333333405
+    m_Duration: 16.566666666666734
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114970993112721716}
     m_EaseInDuration: 0
