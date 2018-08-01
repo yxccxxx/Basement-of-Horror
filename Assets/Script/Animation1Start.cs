@@ -6,6 +6,7 @@ using UnityEngine.Playables;
 
 public class Animation1Start : MonoBehaviour {
     public GameObject go;
+    public GameObject go2;
     private bool initial = true;
     // Update is called once per frame
     void Update () {
