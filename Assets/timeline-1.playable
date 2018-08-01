@@ -47,7 +47,7 @@ MonoBehaviour:
   - {fileID: 114553104426285090}
   - {fileID: 114889359659009382}
   - {fileID: 114635018511901206}
-  m_FixedDuration: 326.35
+  m_FixedDuration: 321.01666666666665
   m_EditorSettings:
     m_Framerate: 60
   m_DurationMode: 1
@@ -4596,7 +4596,7 @@ MonoBehaviour:
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
-    m_BlendOutDuration: 0
+    m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -4638,15 +4638,15 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Player_4
     m_Version: 1
-  - m_Start: 179.99999999999997
+  - m_Start: 188
     m_ClipIn: 0
     m_Asset: {fileID: 114415524234880656}
-    m_Duration: 34.68
+    m_Duration: 34.68000000000001
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114635018511901206}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 0
+    m_BlendInDuration: -1
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
